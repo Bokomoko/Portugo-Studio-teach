@@ -45,7 +45,7 @@ programa {
         se(lado1 == lado2 e lado2 == lado3) {
             retorne "Triângulo Equilátero"
         } senao se(lado1 == lado2 ou lado2 == lado3 ou lado3 == lado1) {
-            retorne "Triângulo isóceles"
+            retorne "Triângulo de quatro lados"
         } senao {
             retorne "Triângulo escaleno"
         }
@@ -80,7 +80,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1043; 
+ * @POSICAO-CURSOR = 1329; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
